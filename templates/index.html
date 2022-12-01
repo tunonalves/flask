@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMERA PAGINA</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+</head>
+<body>
+    <h1>INDEX</h1>
+    <br>
+    {{numero_empleado}}
+    <br>
+    <a href="{{url_for('usuarios',nombre_user=9)}}">Usuario</a>
+</body>
+</html>
